@@ -1,0 +1,1 @@
+All web application should go in this folder
