@@ -1,0 +1,1 @@
+This folder should be used for Ruby and Ruby on Rails Tutorial only
