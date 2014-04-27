@@ -1,9 +1,10 @@
 LyndaLeaning::Application.routes.draw do
+  get 'say/hello'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  # root 'welcome#index'
+  root 'say#hello'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
@@ -52,5 +53,10 @@ LyndaLeaning::Application.routes.draw do
   #     # Directs /admin/products/* to Admin::ProductsController
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
+  #   end
+  #resources :articles
+  #root 'say/hello'
+  #     resources :comments, :sales
+  #     resource :seller
   #   end
 end
